@@ -139,7 +139,7 @@ newspapers.forEach(newspaper => {
                 
                 articles.push({
                     title,
-                    url: newspaper.base + `href=`url,
+                    url: newspaper.base + url,
                     source: newspaper.name
                 })
             })

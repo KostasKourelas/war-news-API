@@ -54,7 +54,7 @@ const newspapers = [
         id: 8,
         name: 'iefimerida',
         address: 'https://www.iefimerida.gr/tag/rosia-oykrania',
-        base: ''
+        base: 'https://www.iefimerida.gr'
     },
     {
         id: 9,

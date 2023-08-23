@@ -7,12 +7,6 @@ const app = express()
 
 const newspapers = [
     {
-        id: 1,
-        name: 'vima',
-        address: 'https://www.tovima.gr/tag/polemos-stin-oukrania/',
-        base: ''
-    },
-    {
         id: 2,
         name: 'euronews',
         address: 'https://gr.euronews.com/tag/war-in-ukraine',
@@ -23,12 +17,6 @@ const newspapers = [
         name: 'news247',
         address: 'https://www.news247.gr/polemos-stin-oykrania',
         base: '',
-    },
-    {
-        id: 4,
-        name: 'cnngr',
-        address: 'https://www.cnn.gr/tag/polemos-oykrania',
-        base: 'https://www.cnn.gr',
     },
     {
         id: 5,
@@ -70,12 +58,6 @@ const newspapers = [
         id: 11,
         name: 'thetoc',
         address: 'https://www.thetoc.gr/tags/polemos-oukrania-rosia/',
-        base: ''
-    },
-    {
-        id: 12,
-        name: 'ot',
-        address: 'https://www.ot.gr/tag/polemos-stin-oukrania/',
         base: ''
     },
     {
